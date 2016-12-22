@@ -11,7 +11,7 @@ bower install --save angular-jsbarcode
 ### CDN Install
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/jsbarcode/3.5.1/JsBarcode.all.min.js"></script>
-<script type="text/javascript" src="-- coming soon --"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/kryo2k/angular-jsbarcode/master/angular-jsbarcode.min.js"></script>
 ```
 
 ### Include into your Angular module
