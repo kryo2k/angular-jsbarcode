@@ -25,21 +25,21 @@ angular.module('myAwesomeModule',['jsBarcode']);
 Uses `ngModel` directive to bind the text value of the encoded barcode. There are also quite a few customization options passed through to JsBarcode.
 
 One-way bound component attributes:
-| Attribute        | Type    | Default     | Description |
-| ---------------- | :-----: | :---------: | ----------- |
-| renderAs         | String  | "svg"       | Defines what element should be used when rendering this barcode. Supports `image`, `canvas`, or `svg`. |
-| format           | String  | "CODE39"    | Supported formats: `CODE128`, `CODE128A`, `CODE128B`, `CODE128C`, `EAN13`, `EAN8`, `UPC`, `CODE39`, `ITF14`, `ITF`, `MSI`, `MSI10`, `MSI11`, `MSI1010`, `MSI1110`, `pharmacode`. |
-| bgColor          | String  | NULL        | Background color to apply for for this barcode image. If `NULL` or empty string, it will be transparent. |
-| barColor         | String  | "#000000"   | Foreground color to apply (applies to both bars and label). |
-| barHeight        | Number  | 50          | Height to draw the bars. |
-| barWidth         | Number  | 1           | Bar width multiplier to use. |
-| marginOuter      | Number  | 0           | Outside margin to use. |
-| marginLabel      | Number  | 0           | Spacing between bars and label. |
-| displayValue     | Boolean | TRUE        | If the value should be displayed in the barcode or not. |
-| labelFontSize    | Number  | 15          | Size of the label font.
-| labelFont        | String  | "monospace" | The font-family that should be used for the barcode label. Can be any font available in browser. |
-| labelFontOptions | String  | ""          | Supports `bold` and/or `italic` |
-| labelAlign       | String  | "center"    | Supports `center`, `left`, `right` |
+Attribute        | Type    | Default     | Description
+---------------- | :-----: | :---------: | -----------
+renderAs         | String  | "svg"       | Defines what element should be used when rendering this barcode. Supports `image`, `canvas`, or `svg`.
+format           | String  | "CODE39"    | Supported formats: `CODE128`, `CODE128A`, `CODE128B`, `CODE128C`, `EAN13`, `EAN8`, `UPC`, `CODE39`, `ITF14`, `ITF`, `MSI`, `MSI10`, `MSI11`, `MSI1010`, `MSI1110`, `pharmacode
+bgColor          | String  | NULL        | Background color to apply for for this barcode image. If `NULL` or empty string, it will be transparent.
+barColor         | String  | "#000000"   | Foreground color to apply (applies to both bars and label).
+barHeight        | Number  | 50          | Height to draw the bars.
+barWidth         | Number  | 1           | Bar width multiplier to use.
+marginOuter      | Number  | 0           | Outside margin to use.
+marginLabel      | Number  | 0           | Spacing between bars and label.
+displayValue     | Boolean | TRUE        | If the value should be displayed in the barcode or not.
+labelFontSize    | Number  | 15          | Size of the label fon
+labelFont        | String  | "monospace" | The font-family that should be used for the barcode label. Can be any font available in browser.
+labelFontOptions | String  | ""          | Supports `bold` and/or `italic`
+labelAlign       | String  | "center"    | Supports `center`, `left`, `right`
 
 **Simple Usage Example**
 ```html
