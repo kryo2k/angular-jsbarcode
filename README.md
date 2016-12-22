@@ -25,8 +25,8 @@ angular.module('myAwesomeModule',['jsBarcode']);
 Uses `ngModel` directive to bind the text value of the encoded barcode. There are also quite a few customization options passed through to JsBarcode.
 
 One-way bound component attributes:
-| Attribute        | Type    | Default     | Description            |
-|------------------|:-------:|:-----------:|------------------------|
+| Attribute        | Type    | Default     | Description |
+| ---------------- | :-----: | :---------: | ----------- |
 | renderAs         | String  | "svg"       | Defines what element should be used when rendering this barcode. Supports `image`, `canvas`, or `svg`. |
 | format           | String  | "CODE39"    | Supported formats: `CODE128`, `CODE128A`, `CODE128B`, `CODE128C`, `EAN13`, `EAN8`, `UPC`, `CODE39`, `ITF14`, `ITF`, `MSI`, `MSI10`, `MSI11`, `MSI1010`, `MSI1110`, `pharmacode`. |
 | bgColor          | String  | NULL        | Background color to apply for for this barcode image. If `NULL` or empty string, it will be transparent. |
