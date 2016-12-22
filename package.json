@@ -1,6 +1,6 @@
 {
   "name": "angular-jsbarcode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "angular-jsbarcode.min.js",
   "description": "An Angular component wrapper for JsBarcode library.",
   "main": "./angular-jsbarcode.js",

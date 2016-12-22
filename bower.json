@@ -1,6 +1,6 @@
 {
   "name": "angular-jsbarcode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "angular-jsbarcode.min.js",
   "description": "An Angular component wrapper for JsBarcode library.",
   "authors": [
@@ -12,6 +12,7 @@
       "url": "git://github.com/kryo2k/angular-jsbarcode"
   },
   "dependencies": {
+    "angular": "1.5.9",
     "JsBarcode": "3.5.7"
   },
   "keywords": [
