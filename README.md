@@ -43,49 +43,6 @@ labelFontOptions | String  | ""          | Supports `bold` and/or `italic`
 labelAlign       | String  | "center"    | Supports `center`, `left`, `right`
 
 
-+-------+----------+------+
-| Table Headings   | Here |
-+-------+----------+------+
-| Sub   | Headings | Too  |
-+=======+==========+======+
-| cell  | column spanning |
-+ spans +----------+------+
-| rows  | normal   | cell |
-+-------+----------+------+
-| multi | * cells can be  |
-| line  | * formatted     |
-| cells | * paragraphs    |
-| too   |                 |
-+-------+-----------------+
-
-
-===== ========= =====
-Table Headings  Here
---------------- -----
-Sub   Headings  Too
-===== ========= =====
-column spanning no
---------------- -----
-cell  cell      row
-column spanning spans
-=============== =====
-
-
-| Tables        |      Are      |  Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |    centered   |   $12 |
-| zebra stripes |    are neat   |    $1 |
-
-
-| Tables        |      Are      |  Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |    centered   |   $12 |
-| zebra stripes |    are neat   |    $1 |
-
-
-
 **Simple Usage Example**
 ```html
 <barcode ng-model="'0123456789'" format="'CODE39'"></barcode>
