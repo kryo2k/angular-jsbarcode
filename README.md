@@ -25,6 +25,7 @@ angular.module('myAwesomeModule',['jsBarcode']);
 Uses `ngModel` directive to bind the text value of the encoded barcode. There are also quite a few customization options passed through to JsBarcode.
 
 One-way bound component attributes:
+
 Attribute        | Type    | Default     | Description
 ---------------- | :-----: | :---------: | -----------
 renderAs         | String  | "svg"       | Defines what element should be used when rendering this barcode. Supports `image`, `canvas`, or `svg`.
@@ -40,6 +41,50 @@ labelFontSize    | Number  | 15          | Size of the label fon
 labelFont        | String  | "monospace" | The font-family that should be used for the barcode label. Can be any font available in browser.
 labelFontOptions | String  | ""          | Supports `bold` and/or `italic`
 labelAlign       | String  | "center"    | Supports `center`, `left`, `right`
+
+
++-------+----------+------+
+| Table Headings   | Here |
++-------+----------+------+
+| Sub   | Headings | Too  |
++=======+==========+======+
+| cell  | column spanning |
++ spans +----------+------+
+| rows  | normal   | cell |
++-------+----------+------+
+| multi | * cells can be  |
+| line  | * formatted     |
+| cells | * paragraphs    |
+| too   |                 |
++-------+-----------------+
+
+
+===== ========= =====
+Table Headings  Here
+--------------- -----
+Sub   Headings  Too
+===== ========= =====
+column spanning no
+--------------- -----
+cell  cell      row
+column spanning spans
+=============== =====
+
+
+| Tables        |      Are      |  Cool |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |    centered   |   $12 |
+| zebra stripes |    are neat   |    $1 |
+
+
+| Tables        |      Are      |  Cool |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |    centered   |   $12 |
+| zebra stripes |    are neat   |    $1 |
+
+
 
 **Simple Usage Example**
 ```html
