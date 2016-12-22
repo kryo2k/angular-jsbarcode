@@ -1,0 +1,30 @@
+{
+  "name": "angular-jsbarcode",
+  "version": "0.1.0",
+  "main": "angular-jsbarcode.min.js",
+  "description": "An Angular component wrapper for JsBarcode library.",
+  "authors": [
+    "Hans Doller <kryo2k@gmail.com>",
+    "Johan Lindell <johan@lindell.me>"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/kryo2k/angular-jsbarcode"
+  },
+  "dependencies": {
+    "JsBarcode": "3.5.7"
+  },
+  "keywords": [
+    "barcode",
+    "canvas",
+    "code128",
+    "upc",
+    "ean",
+    "itf",
+    "msi",
+    "pharmacode"
+  ],
+  "license": "MIT",
+  "resolutions": {
+  }
+}
